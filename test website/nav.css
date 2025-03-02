@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: large;
+}
+
+.navbar ul li a:hover {
+    background-color: #FFD700;
+    color: goldenrod;
+}
+
+.signin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-image: url(/images/sign-image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.signin-box {
+    display: flex;
+    background: aquamarine;
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px;
+    color: black;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-form {
+    flex: 1;
+}
+
+.sign-form h2 {
+    margin: 20px;
+}
+
+.sign-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    display: block;
+}
+
+.sign-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: lightsalmon;
+    color: royalblue;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sign-form button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
